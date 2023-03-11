@@ -5,13 +5,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  //margin-top: 1rem;
   height: 6.25rem;
-  border: 1px dotted black;
 }
 
 .logo {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: bold;
   color: $main-color;
   text-decoration: none;
