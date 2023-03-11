@@ -1,0 +1,31 @@
+@import "variables";
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  //margin-top: 1rem;
+  height: 6.25rem;
+}
+
+.logo {
+  font-size: 3rem;
+  font-weight: bold;
+  color: $main-color;
+  text-decoration: none;
+  font-family: $primary-font;
+}
+.logo__header {}
+
+.nav__header {}
+.menu__header {
+  .menu__header__element {
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: $primary-font;
+    display: inline-block;
+    padding-inline: 2rem;
+  }
+}
+
