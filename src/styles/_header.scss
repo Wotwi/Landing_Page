@@ -25,6 +25,14 @@
     font-family: $primary-font;
     display: inline-block;
     padding-inline: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    height: 100%;
+    cursor: pointer;
+    &:hover{
+      background-color: rgba(230,230,230, .8);
+      border-radius: 30px;
+    }
   }
 }
 
